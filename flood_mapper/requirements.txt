@@ -1,0 +1,21 @@
+# Multimodal AI Hackathon 2026 - Track B: Mapping Flood Damage from Space
+# Core Dependencies for Aegis-Orbit Flood Damage & Cut-off Settlement Mapping
+
+streamlit>=1.35.0
+streamlit-folium>=0.20.0
+folium>=0.16.0
+rasterio>=1.3.10
+geopandas>=0.14.4
+shapely>=2.0.4
+numpy>=1.24.0
+scipy>=1.11.0
+torch>=2.1.0
+torchvision>=0.16.0
+segmentation-models-pytorch>=0.3.3
+openrouteservice>=2.3.3
+requests>=2.31.0
+matplotlib>=3.8.0
+pyproj>=3.6.1
+pillow>=10.2.0
+pandas>=2.1.0
+networkx>=3.1

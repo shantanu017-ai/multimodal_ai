@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python cache & environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Next.js & Build Outputs
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts.bak
+
+# Local Environment & Secrets
+.env
+.env*.local
+.streamlit/secrets.toml
+
+# Heavy Satellite Raw Data & Archives (Exceeds GitHub 100MB Limit)
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.SAFE
+*.SAFE/
+*.tiff
+*.tif
+*.nc
+*.h5
+*.hdf5
+*.jp2
+
+# Model weights if generated locally
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# AI Assistant configs / logs
+.agents/
+.claude/
